@@ -145,7 +145,7 @@ for repeat in range(n_repeats):
             accuracy = accuracy_score(y_test, y_pred)
             acc_scores[len(test_comb)].append(accuracy)
 
-# Theoretical classification accuracy from the PDF
+# Theoretical classification accuracy from the paper: https://doi.org/10.1007/978-3-540-74272-2_115
 theoretical_accuracy = 0.977
 
 # Plotting the accuracy scores and AUC scores with a horizontal line at the theoretical accuracy
